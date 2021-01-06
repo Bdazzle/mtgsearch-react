@@ -1,0 +1,99 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+#labels {
+  vertical-align: top;
+  min-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#labels div {
+  font-weight: bold;
+  width: 250px;
+  padding: 10px 100px 0px 10px;
+}
+
+table {
+  text-align: left;
+}
+
+.amount {
+  width: 40px;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  width: 150px;
+  display: block;
+  z-index: -1;
+}
+
+.display {
+  opacity: 0.5;
+}
+
+.cardSearch {
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+}
+
+#cardname {
+  max-width: 150px;
+}
+
+tr {
+  vertical-align: top;
+  width: 1000px;
+  display: inline-block;
+}
+
+tr td {
+  overflow: auto;
+  /*max-width:300px;*/
+  min-width: 200px;
+  /*padding:0px 10px;*/
+}
+
+tr td .sets {
+  width: 250px;
+}
+
+.langContainer {
+  overflow: auto;
+  max-height: 170px;
+  min-width: 150px;
+}
+
+.amountContainer {
+  overflow: auto;
+  max-height: 170px;
+  min-width: 200px;
+}
+
+.amountContainer div {
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.usd {
+  color: blue;
+}
+
+.euros {
+  color: purple;
+}
+
+.tix {
+  color: orange;
+}
+/*# sourceMappingURL=App.css.map */

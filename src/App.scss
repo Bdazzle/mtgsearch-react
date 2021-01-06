@@ -1,0 +1,82 @@
+@import
+url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+#labels {
+    vertical-align:top;
+    min-width:1000px;
+    display:flex;
+    div{
+    font-weight:bold;
+    width:250px;
+    padding: 10px 100px 0px 10px;
+    }
+}
+
+table{
+  text-align: left;   
+}
+.amount{
+    width:40px;
+    height:20px;
+    box-sizing: border-box;
+}
+img{
+    height:auto;
+    width:150px;
+    display:block;
+    z-index:-1;
+}
+
+.display{
+    opacity:0.5;
+}
+.cardSearch{
+    display:inline-block;
+}
+label{
+    display:inline-block;
+}
+#cardname{
+    max-width:150px;
+}
+tr{
+    vertical-align:top;
+    width:1000px;
+    display:inline-block;
+    td{
+        overflow: auto;
+        /*max-width:300px;*/
+        min-width:200px;
+        /*padding:0px 10px;*/
+        .sets{
+            width:250px;
+        }
+    }
+}
+
+.langContainer{
+    overflow:auto;
+    max-height: 170px;
+    min-width: 150px;
+}
+.amountContainer{
+    overflow: auto;
+    max-height: 170px;
+    min-width: 200px;
+
+        div{
+    font-size:14px;
+    display:inline-block;
+    width:100%;
+    display:flex;
+    }
+}
+.usd{
+    color:blue;
+}
+.euros{
+    color:purple;
+}
+.tix{
+    color:orange;
+}
